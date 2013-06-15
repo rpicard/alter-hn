@@ -11,6 +11,7 @@ The add-on is still in development, but right now it makes story and comment lin
 ## License
 
 Copyright (c) Robert Picard
+
 All rights reserved.
 
 Licensed under the [MIT license](http://opensource.org/licenses/MIT).
