@@ -1,9 +1,11 @@
 {
   "name": "alter-hn",
-  "fullName": "alter-hn",
+  "fullName": "Alter HN",
   "id": "jid1-yoJNczsXNJNagA",
-  "description": "a basic add-on",
-  "author": "",
-  "license": "MIT",
-  "version": "0.1"
+  "description": "A tool to bend Hacker News to your will.",
+  "author": "Robert Picard (http://robert.io)",
+  "license": "MIT (http://opensource.org/licenses/MIT)",
+  "version": "0.1",
+  "homepage": "https://github.com/rpicard/alter-hn",
+  "permissions": {"private-browsing": true}
 }
