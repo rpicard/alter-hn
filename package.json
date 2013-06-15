@@ -1,11 +1,27 @@
 {
-  "name": "alter-hn",
-  "fullName": "Alter HN",
-  "id": "jid1-yoJNczsXNJNagA",
-  "description": "A tool to bend Hacker News to your will.",
-  "author": "Robert Picard (http://robert.io)",
-  "license": "MIT (http://opensource.org/licenses/MIT)",
-  "version": "0.1",
-  "homepage": "https://github.com/rpicard/alter-hn",
-  "permissions": {"private-browsing": true}
+    "name": "alter-hn",
+    "fullName": "Alter HN",
+    "id": "jid1-yoJNczsXNJNagA",
+    "description": "A tool to bend Hacker News to your will.",
+    "author": "Robert Picard (http://robert.io)",
+    "license": "MIT (http://opensource.org/licenses/MIT)",
+    "version": "0.1",
+    "homepage": "https://github.com/rpicard/alter-hn",
+    "permissions": {"private-browsing": true},
+    "preferences": [
+        {
+            "name": "makeStoryLinkNewTab",
+            "title": "Open stories in new tabs",
+            "description": "Story links will open in a new tab.",
+            "type": "bool",
+            "value": true
+        },
+        {
+            "name": "makeCommentLinkNewTab",
+            "title": "Open comment pages in new tabs",
+            "description": "Comment page links will open in a new tab.",
+            "type": "bool",
+            "value": true
+        }
+    ]
 }
