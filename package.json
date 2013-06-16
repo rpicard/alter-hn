@@ -5,7 +5,7 @@
     "description": "A tool to bend Hacker News to your will.",
     "author": "Robert Picard (http://robert.io)",
     "license": "MIT (http://opensource.org/licenses/MIT)",
-    "version": "0.2",
+    "version": "0.3",
     "homepage": "https://github.com/rpicard/alter-hn",
     "permissions": {"private-browsing": true},
     "preferences": [
