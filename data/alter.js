@@ -11,7 +11,7 @@
 
 // Make story links open in a new tab.
 function makeStoryLinkNewTab() {
-    $("td .title a").attr("target", "_blank");
+    $("td .title a[href^='http']").attr("target", "_blank");
 }
 
 // Make comment links open in new tabs
