@@ -53,7 +53,7 @@ function addYoursLinkToNav() {
             "</span>";
 
         // Inject the HTML after the "threads" link
-        $("span.pagetop a[href^='threads?id=']").after(HTML);
+        $("span.pagetop a[href='submit']").after(HTML);
     }
 
 }
