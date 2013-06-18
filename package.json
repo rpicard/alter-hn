@@ -29,6 +29,13 @@
             "description": "The username of a link's submitter will be marked with a subtle dagger character.",
             "type": "bool",
             "value": true
+        },
+        {
+            "name": "addYoursLinkToNav",
+            "title": "Add link to your submissions in navigation.",
+            "description": "A link to your submissions will be added to the navigation.",
+            "type": "bool",
+            "value": true
         }
     ]
 }

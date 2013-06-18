@@ -37,6 +37,27 @@ function distinguishSubmitterInComments() {
     }
 }
 
+// Add "yours" link to the navigation
+function addYoursLinkToNav() {
+    // Get the username from the nav
+    username = $("span.pagetop a[href^='user?id=']").text();
+
+    username = "rpicard";
+
+    // Only continue if the user is logged in
+    if (username) {
+        // This is the HTML that will be injected to show the link
+        HTML =
+            "<span id='alterhn-yours'>" +
+            " | <a href='submitted?id=" + username + "'>yours</a>" +
+            "</span>";
+
+        // Inject the HTML after the "threads" link
+        $("span.pagetop a[href^='threads?id=']").after(HTML);
+    }
+
+}
+
 // -- Make alterations --------------------------------------------------------
 
 self.port.on("gotPrefs", function(prefs) {
@@ -51,6 +72,10 @@ self.port.on("gotPrefs", function(prefs) {
 
     if (prefs.distinguishSubmitterInComments) {
         distinguishSubmitterInComments();
+    }
+
+    if (prefs.addYoursLinkToNav) {
+        addYoursLinkToNav();
     }
 });
 
