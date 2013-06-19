@@ -11,6 +11,14 @@ The add-on is still in development, but right now it makes story and comment lin
 * Add a link to your own submissions in the navigation
 * Add an [l+c] link to submissions
 
+## Screenshots
+
+![Link to your submissions in the navigation](screenshots/yours-link.png)
+
+![Distinguish the submitter in the comments](screenshots/distinguish-submitter.png)
+
+![Add an [l+c] link to open the link and comments in one click](screenshots/lpc-link.png)
+
 ## TODO:
 
 See the [open issues](https://github.com/rpicard/alter-hn/issues?state=open) for a list of things to come.
