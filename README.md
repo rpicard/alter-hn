@@ -2,7 +2,10 @@
 
 I created this add on because I'd like to be able to customize certain aspects of [Hacker News](https://news.ycombinator.com).
 
-The add-on is still in development, but right now it makes story and comment links open in a new tab.
+## Give back
+Use and appreciate Alter HN? [Give back on Gittip!](https://www.gittip.com/rpicard/)
+
+ [![Gittip](http://badgr.co/gittip/rpicard.png)](https://www.gittip.com/JSFiddle/)
 
 ## Current features
 
