@@ -26,9 +26,9 @@ The plugin is built using the Firefox [add-on SDK](https://addons.mozilla.org/en
 
 Try and match your code style to what already exists. Document your code thoroughly with comments. If your changes are fairly small, don't worry too much about it your first time. I'll let you know if there's anything I'd like you to change.
 
-If you want to make a sizable change, you should probably create an issue for it first. We can discuss it and decide if we want to move forward and the best way to approach it.
+If you want to make a sizable change, you should probably open a ticket for it first. We can discuss it and decide if we want to move forward and figure out the best way to approach it.
 
-If you have a question you can open a ticket in the [issue tracker](https://github.com/rpicard/alter-hn/issues), ping [@__rlp](https://twitter.com/__rlp) on Twitter, or email mail@robert.io.
+If you have a question you can open a ticket in the [issue tracker](https://github.com/rpicard/alter-hn/issues), ping [@__rlp](https://twitter.com/__rlp) on Twitter, or email me at mail@robert.io.
 
 ## What's in store?
 
