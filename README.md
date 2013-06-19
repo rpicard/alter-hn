@@ -20,6 +20,16 @@ The add-on is still in development, but right now it makes story and comment lin
 
 ![Add an [l+c] link to open the link and comments in one click](screenshots/lpc-link.png)
 
+## Hacking
+
+The plugin is built using the Firefox [add-on SDK](https://addons.mozilla.org/en-US/developers/docs/sdk/latest/dev-guide/index.html). Follow the "Getting started" tutorial there to … get started.
+
+Try and match your code style to what already exists. Document your code thoroughly with comments. If your changes are fairly small, don't worry too much about it your first time. I'll let you know if there's anything I'd like you to change.
+
+If you want to make a sizable change, you should probably create an issue for it first. We can discuss it and decide if we want to move forward and the best way to approach it.
+
+If you have a question you can open a ticket in the [issue tracker](https://github.com/rpicard/alter-hn/issues), ping [@__rlp](https://twitter.com/__rlp) on Twitter, or email mail@robert.io.
+
 ## What's in store?
 
 See the [open issues](https://github.com/rpicard/alter-hn/issues?state=open) for a list of things to come.
