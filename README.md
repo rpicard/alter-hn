@@ -13,7 +13,7 @@ The add-on is still in development, but right now it makes story and comment lin
 
 ## Screenshots
 
-![Link to your submissions in the navigation](screenshots/yours-link.png)
+![Link to your submissions in the navigation](screenshots/yours-nav.png)
 
 ![Distinguish the submitter in the comments](screenshots/distinguish-submitter.png)
 
