@@ -5,7 +5,7 @@ I created this add on because I'd like to be able to customize certain aspects o
 ## Give back
 Use and appreciate Alter HN? [Give back on Gittip!](https://www.gittip.com/rpicard/)
 
- [![Gittip](http://badgr.co/gittip/rpicard.png)](https://www.gittip.com/JSFiddle/)
+ [![Gittip](http://badgr.co/gittip/rpicard.png)](https://www.gittip.com/rpicard/)
 
 ## Current features
 
