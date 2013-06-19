@@ -32,8 +32,15 @@
         },
         {
             "name": "addYoursLinkToNav",
-            "title": "Add link to your submissions in navigation.",
+            "title": "Add link to your submissions in navigation",
             "description": "A link to your submissions will be added to the navigation.",
+            "type": "bool",
+            "value": true
+        },
+        {
+            "name": "showLinkPlusComments",
+            "title": "[l+c] link",
+            "description": "Show a link to open both the comments and the link in new tabs.",
             "type": "bool",
             "value": true
         }
