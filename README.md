@@ -5,11 +5,12 @@ I created this add on because I'd like to be able to customize certain aspects o
 The add-on is still in development, but right now it makes story and comment links open in a new tab.
 
 ## Current features
-* Open links in new tabs
+
+* Open submissions in new tabs
 * Open comment pages in new tabs
-* Distinguish link submitters in comments
-* Add a link to your own submissions in the navigation
-* Add an [l+c] link to submissions
+* Distinguish submitter in comments
+* Add link to your submissions in navigation
+* Add [l+c] link to open both the link and the comments with one click
 
 ## Screenshots
 
@@ -19,7 +20,7 @@ The add-on is still in development, but right now it makes story and comment lin
 
 ![Add an [l+c] link to open the link and comments in one click](screenshots/lpc-link.png)
 
-## TODO:
+## What's in store?
 
 See the [open issues](https://github.com/rpicard/alter-hn/issues?state=open) for a list of things to come.
 
