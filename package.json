@@ -5,27 +5,27 @@
     "description": "A tool to bend Hacker News to your will.",
     "author": "Robert Picard (http://robert.io)",
     "license": "MIT (http://opensource.org/licenses/MIT)",
-    "version": "0.3",
+    "version": "1.0",
     "homepage": "https://github.com/rpicard/alter-hn",
     "permissions": {"private-browsing": true},
     "preferences": [
         {
-            "name": "makeStoryLinkNewTab",
-            "title": "Open stories in new tabs",
-            "description": "Story links will open in a new tab.",
+            "name": "makeSubmissionLinkNewTab",
+            "title": "Open submissions in new tabs",
+            "description": "",
             "type": "bool",
             "value": true
         },
         {
             "name": "makeCommentLinkNewTab",
             "title": "Open comment pages in new tabs",
-            "description": "Comment page links will open in a new tab.",
+            "description": "",
             "type": "bool",
             "value": true
         },
         {
             "name": "distinguishSubmitterInComments",
-            "title": "Distinguish submitters in comments",
+            "title": "Distinguish submitter in comments",
             "description": "The username of a link's submitter will be marked with a subtle dagger character.",
             "type": "bool",
             "value": true
@@ -33,14 +33,14 @@
         {
             "name": "addYoursLinkToNav",
             "title": "Add link to your submissions in navigation",
-            "description": "A link to your submissions will be added to the navigation.",
+            "description": "",
             "type": "bool",
             "value": true
         },
         {
             "name": "showLinkPlusComments",
             "title": "[l+c] link",
-            "description": "Show a link to open both the comments and the link in new tabs.",
+            "description": "Show a link to open both the submission and the comments pages with one click.",
             "type": "bool",
             "value": true
         }

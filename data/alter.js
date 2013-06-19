@@ -10,7 +10,7 @@
 // -- Define functions --------------------------------------------------------
 
 // Make story links open in a new tab.
-function makeStoryLinkNewTab() {
+function makeSubmissionLinkNewTab() {
     $("td .title a[href^='http']").attr("target", "_blank");
 }
 
@@ -109,8 +109,8 @@ function showLinkPlusComments() {
 
 self.port.on("gotPrefs", function(prefs) {
 
-    if (prefs.makeStoryLinkNewTab) {
-        makeStoryLinkNewTab();
+    if (prefs.makeSubmissionLinkNewTab) {
+        makeSubmissionLinkNewTab();
     }
 
     if (prefs.makeCommentLinkNewTab) {
