@@ -42,8 +42,6 @@ function addYoursLinkToNav() {
     // Get the username from the nav
     username = $("span.pagetop a[href^='user?id=']").text();
 
-    username = "rpicard";
-
     // Only continue if the user is logged in
     if (username) {
         // This is the HTML that will be injected to show the link
