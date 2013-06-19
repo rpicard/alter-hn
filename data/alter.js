@@ -58,6 +58,7 @@ function addYoursLinkToNav() {
 
 }
 
+// Add [l+c] link to submissions
 function showLinkPlusComments() {
     // Grab a list of the comments links to insert our HTML after
     commentsLinks = $("td.subtext a[href^='item?id=']");
