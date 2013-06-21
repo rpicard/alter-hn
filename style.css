@@ -7,18 +7,18 @@ body {
 }
 
 header {
-    margin-top: 100px;
+    margin: 100px auto 0 auto;
 }
 
 h1 {
-    font: 150px/35px "open sans";
+    font: 9em/.25em "open sans";
     text-align: center;
     margin-top: 0px;
 }
 
 h2 {
     border-top: 1px dotted #222222;
-    font: 30px/20px "open sans";
+    font: 2em/.5em "open sans";
     margin: 50px 0 20px 0;
     text-align: center;
     text-transform: uppercase;
@@ -33,13 +33,13 @@ h2 span {
 
 p.tagline {
     text-align: center;
-    font: 50px/10px "gentium book basic";
+    font: 3em/.25em "gentium book basic";
     font-style: italic;
     color: #292724;
 }
 
 p {
-    font: 24px/1.56em georgia;
+    font: 1.5em/1.56em georgia;
 }
 
 div.screenshot {
@@ -49,6 +49,7 @@ div.screenshot {
 
 div.screenshot img {
     border: 10px solid #fff;
+    max-width: 100%;
 }
 
 a,
@@ -62,4 +63,43 @@ a:visited {
     width: 600px;
     margin-left: auto;
     margin-right: auto;
+}
+
+@media only screen
+and (max-width: 700px) {
+body {
+    font-size: 12px;
+}
+
+.content {
+    width: 500px;
+}
+}
+
+
+@media only screen
+and (max-width: 500px) {
+header {
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+p.tagline {
+    font-size: 1.5em;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+.content {
+    width: 300px;
+}
+
+div.screenshot img {
+    max-width: 80%;
+}
 }
