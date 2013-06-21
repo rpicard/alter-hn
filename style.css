@@ -17,9 +17,18 @@ h1 {
 }
 
 h2 {
+    border-top: 1px dotted #222222;
+    font: 30px/20px "open sans";
+    margin: 50px 0 20px 0;
     text-align: center;
-    font: 60px/35px "gentium book basic";
-    font-style: italic;
+    text-transform: uppercase;
+}
+
+h2 span {
+    background: #ff6600;
+    padding: 0 20px;
+    position: relative;
+    top: -10px;
 }
 
 p.tagline {
@@ -31,6 +40,15 @@ p.tagline {
 
 p {
     font: 24px/1.56em georgia;
+}
+
+div.screenshot {
+    width: 100%;
+    text-align: center;
+}
+
+div.screenshot img {
+    border: 10px solid #fff;
 }
 
 a,
