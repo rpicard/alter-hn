@@ -1,0 +1,47 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:800);
+@import url(http://fonts.googleapis.com/css?family=Gentium+Basic);
+
+body {
+    background-color: #ff6600;
+    color: #292724;
+}
+
+header {
+    margin-top: 100px;
+}
+
+h1 {
+    font: 150px/35px "open sans";
+    text-align: center;
+    margin-top: 0px;
+}
+
+h2 {
+    text-align: center;
+    font: 60px/35px "gentium book basic";
+    font-style: italic;
+}
+
+p.tagline {
+    text-align: center;
+    font: 50px/10px "gentium book basic";
+    font-style: italic;
+    color: #292724;
+}
+
+p {
+    font: 24px/1.56em georgia;
+}
+
+a,
+a:link,
+a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+.content {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
