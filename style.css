@@ -14,6 +14,7 @@ h1 {
     font: 9em/.25em "open sans";
     text-align: center;
     margin-top: 0px;
+    color: #222;
 }
 
 h2 {
@@ -22,6 +23,7 @@ h2 {
     margin: 50px 0 20px 0;
     text-align: center;
     text-transform: uppercase;
+    color: #222;
 }
 
 h2 span {
@@ -35,7 +37,6 @@ p.tagline {
     text-align: center;
     font: 3em/.25em "gentium book basic";
     font-style: italic;
-    color: #292724;
 }
 
 p {
