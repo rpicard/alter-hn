@@ -43,6 +43,10 @@ p {
     font: 1.5em/1.56em georgia;
 }
 
+ul li {
+    font-size: 1.5em;
+}
+
 div.screenshot {
     width: 100%;
     text-align: center;
